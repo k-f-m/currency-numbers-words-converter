@@ -10,6 +10,6 @@ export class TranslationService {
   constructor(private http: HttpClient) { }
 
   translate(value: string) {
-    return this.http.post(this.apiUrl, { value });
+    return this.http.post(this.apiUrl, { value }, { responseType: 'text' });
   }
 }
