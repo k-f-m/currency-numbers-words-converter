@@ -1,10 +1,32 @@
-<h1 id="tableLabel">Currency-to-Word</h1>
+<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Currency to Word</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
 
-<p>This component demonstrates the conversion of currency (dollars) from numbers to words; the conversion takes place on the server.</p>
+<p>This web application converts currency (dollars) from numbers to words.</p>
 
-<p *ngIf="!translatedValue"><em>Loading... Please refresh once the ASP.NET backend has started.</em></p>
-
-
-<div *ngIf="translatedValue">
-  Translated Value: {{ translatedValue }}
-</div>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Enter a number</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form #num="ngForm" (ngSubmit)="onSubmit(num)" novalidate>
+      <mat-form-field>
+        <input matInput type="number" name="number" ngModel required #number="ngModel">
+      </mat-form-field>
+      <button mat-raised-button color="primary">SUBMIT</button>
+    </form>
+    <p *ngIf="convertedValue">Value in words: {{ convertedValue }}</p>
+  </mat-card-content>
+</mat-card>

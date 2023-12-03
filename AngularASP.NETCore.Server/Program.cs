@@ -19,7 +19,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// CORS policy workaround.
+// Enable Cross-Origin Requests (CORS) in ASP.NET Core.
 // Use only for development environment.
 app.UseCors(options => options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 

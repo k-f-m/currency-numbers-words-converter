@@ -1,19 +1,22 @@
 import { Component } from '@angular/core';
-import { TranslationService } from './services/translation.service';
+import { ConversionService } from './services/conversion.service';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  translatedValue?: string;
+  convertedValue?: string;
 
-  constructor(private translationService: TranslationService) { }
+  constructor(private conversionService: ConversionService) { }
 
-  ngOnInit() {
-    this.translationService.translate('Hello World!').subscribe((response: any) => {
-      this.translatedValue = response;
+  onSubmit(num: NgForm) {
+    console.log(num.value);
+    this.conversionService.convert(num.value).subscribe((response: any) => {
+      this.convertedValue = response;
     });
+    console.log(num.value);
   }
 }

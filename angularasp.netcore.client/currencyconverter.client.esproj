@@ -7,7 +7,4 @@
     <!-- Folder where production build objects will be placed -->
     <PublishAssetsDirectory>$(MSBuildProjectDirectory)\dist\angularasp.netcore.client\</PublishAssetsDirectory>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="src\app\components\" />
-  </ItemGroup>
 </Project>

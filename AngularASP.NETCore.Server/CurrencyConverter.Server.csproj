@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\angularasp.netcore.client\angularasp.netcore.client.esproj">
+    <ProjectReference Include="..\angularasp.netcore.client\currencyconverter.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

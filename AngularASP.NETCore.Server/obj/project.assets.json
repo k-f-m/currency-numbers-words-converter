@@ -464,9 +464,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\K1\\source\\repos\\AngularASP.NETCore\\AngularASP.NETCore.Server\\AngularASP.NETCore.Server.csproj",
-      "projectName": "AngularASP.NETCore.Server",
-      "projectPath": "C:\\Users\\K1\\source\\repos\\AngularASP.NETCore\\AngularASP.NETCore.Server\\AngularASP.NETCore.Server.csproj",
+      "projectUniqueName": "C:\\Users\\K1\\source\\repos\\AngularASP.NETCore\\AngularASP.NETCore.Server\\CurrencyConverter.Server.csproj",
+      "projectName": "CurrencyConverter.Server",
+      "projectPath": "C:\\Users\\K1\\source\\repos\\AngularASP.NETCore\\AngularASP.NETCore.Server\\CurrencyConverter.Server.csproj",
       "packagesPath": "C:\\Users\\K1\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\K1\\source\\repos\\AngularASP.NETCore\\AngularASP.NETCore.Server\\obj\\",
       "projectStyle": "PackageReference",

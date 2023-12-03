@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "McTiT7x5P7XJAOqz7IQDp2EvOlYnmEBjcvzcjczOu/bYnJFp5fm+KtF+EiJyuCee50OjBrSDR19PzrR3i+CrmQ==",
+  "dgSpecHash": "hgEbrMiPeRoGF8pGdId87GaFCcGgG5eLIgahMxbhP+kRATVBabOG2b2kq1nJmtMYsn8NW7gvkcNQHUO/Sd38mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\K1\\source\\repos\\AngularASP.NETCore\\AngularASP.NETCore.Server\\AngularASP.NETCore.Server.csproj",
+  "projectFilePath": "C:\\Users\\K1\\source\\repos\\AngularASP.NETCore\\AngularASP.NETCore.Server\\CurrencyConverter.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\K1\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.0\\microsoft.aspnetcore.spaproxy.8.0.0.nupkg.sha512",
     "C:\\Users\\K1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
