@@ -1,0 +1,1 @@
+C:\Users\K1\source\repos\AngularASP.NETCore\angularasp.netcore.client\obj\Debug\angularasp.netcore.client.esproj.CoreCompileInputs.cache

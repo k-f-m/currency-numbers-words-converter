@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "otGLSx497q75GgaqlB7t3LhhQii5WO2AP8afKWNcRpA=",
+  "Source": "AngularASP.NETCore.Server",
+  "BasePath": "_content/AngularASP.NETCore.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\K1\\source\\repos\\AngularASP.NETCore\\angularasp.netcore.client\\angularasp.netcore.client.esproj",
+      "Version": 2,
+      "Source": "angularasp.netcore.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
