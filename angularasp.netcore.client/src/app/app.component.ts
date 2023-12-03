@@ -3,11 +3,8 @@ import { TranslationService } from './services/translation.service';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <div *ngIf="translatedValue">
-      Translated Value: {{ translatedValue }}
-    </div>
-  `
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
   translatedValue?: string;

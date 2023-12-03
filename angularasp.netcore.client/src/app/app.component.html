@@ -2,36 +2,9 @@
 
 <p>This component demonstrates the conversion of currency (dollars) from numbers to words; the conversion takes place on the server.</p>
 
-<p *ngIf="!forecasts"><em>Loading... Please refresh once the ASP.NET backend has started.</em></p>
+<p *ngIf="!translatedValue"><em>Loading... Please refresh once the ASP.NET backend has started.</em></p>
 
-<table *ngIf="forecasts">
-    <thead>
-        <tr>
-            <th>Date</th>
-            <th>Temp. (C)</th>
-            <th>Temp. (F)</th>
-            <th>Summary</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let forecast of forecasts">
-            <td>{{ forecast.date }}</td>
-            <td>{{ forecast.temperatureC }}</td>
-            <td>{{ forecast.temperatureF }}</td>
-            <td>{{ forecast.summary }}</td>
-        </tr>
-    </tbody>
-</table>
 
-<!--<mat-card>-->
-  <form #f="ngform" (ngsubmit)="onsubmit(f)" novalidate>
-    <input name="first" ngmodel required #first="ngmodel">
-    <input name="last" ngmodel>
-    <button>submit</button>
-  </form>
-
-  <p>first name value: {{ first.value }}</p>
-  <p>first name valid: {{ first.valid }}</p>
-  <p>form value: {{ f.value | json }}</p>
-  <p>form valid: {{ f.-->valid }}</p>
-<!--</mat-card>-->
+<div *ngIf="translatedValue">
+  Translated Value: {{ translatedValue }}
+</div>
