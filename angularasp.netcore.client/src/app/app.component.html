@@ -22,3 +22,16 @@
         </tr>
     </tbody>
 </table>
+
+<!--<mat-card>-->
+  <form #f="ngform" (ngsubmit)="onsubmit(f)" novalidate>
+    <input name="first" ngmodel required #first="ngmodel">
+    <input name="last" ngmodel>
+    <button>submit</button>
+  </form>
+
+  <p>first name value: {{ first.value }}</p>
+  <p>first name valid: {{ first.valid }}</p>
+  <p>form value: {{ f.value | json }}</p>
+  <p>form valid: {{ f.-->valid }}</p>
+<!--</mat-card>-->
