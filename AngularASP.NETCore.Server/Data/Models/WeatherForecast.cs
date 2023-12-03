@@ -1,4 +1,4 @@
-namespace AngularASP.NETCore.Server
+namespace AngularASP.NETCore.Server.Data.Models
 {
     public class WeatherForecast
     {

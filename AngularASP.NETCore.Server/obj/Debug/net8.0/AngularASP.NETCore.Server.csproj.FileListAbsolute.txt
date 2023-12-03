@@ -33,3 +33,4 @@ C:\Users\K1\source\repos\AngularASP.NETCore\AngularASP.NETCore.Server\obj\Debug\
 C:\Users\K1\source\repos\AngularASP.NETCore\AngularASP.NETCore.Server\obj\Debug\net8.0\AngularASP.NETCore.Server.pdb
 C:\Users\K1\source\repos\AngularASP.NETCore\AngularASP.NETCore.Server\obj\Debug\net8.0\AngularASP.NETCore.Server.genruntimeconfig.cache
 C:\Users\K1\source\repos\AngularASP.NETCore\AngularASP.NETCore.Server\obj\Debug\net8.0\ref\AngularASP.NETCore.Server.dll
+C:\Users\K1\source\repos\AngularASP.NETCore\AngularASP.NETCore.Server\obj\Debug\net8.0\AngularASP.NETCore.Server.sourcelink.json
